@@ -1,0 +1,5 @@
+caps: 
+ deviceName: pixel_XL
+ platformName: Android
+ app: File.dirname(__FILE__), /../app/PreciseUnitConversion.apk
+ newCommandTimeout: 3600

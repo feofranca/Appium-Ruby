@@ -1,0 +1,9 @@
+default: --profile report --profile nexus_5X
+report: --format pretty --format html --out=report.html
+
+#Devices
+nexus_5X: DEVICE='nexus_5X'
+pixel_XL: DEVICE='pixel_XL'
+
+#Reset
+no_reset: NO_RESET='no_reset'
